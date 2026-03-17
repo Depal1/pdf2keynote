@@ -182,11 +182,14 @@ def process_annotations_for_page(pdf, page_number):
             print("PDFAnnotationLink at page %d:" % page_number, annotation.URL())
             url = annotation.URL()
             if url:
+                path = url.path()
+                if not path:
+                    continue
                 bounds = annotation.bounds()
                 print(bounds)
                 P = bounds.origin
                 slide = page_number + 1
-                path = os.path.abspath(url.path())
+                path = os.path.abspath(path)
                 # TODO: test if annotation is on second screen and duplicates...
                 if is_audio(path):
                     insert_sound(slide, path, P.x * scale, P.y * scale)
