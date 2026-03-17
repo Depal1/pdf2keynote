@@ -12,11 +12,11 @@ Install
 
 install from git::
 
-	pip install git+https://github.com/remymuller/pdf2keynote.git
+	pip install git+https://github.com/Depal1/pdf2keynote.git
 
 .. install for development::
 ..
-..	git clone https://github.com/remymuller/pdf2keynote.git
+..	git clone https://github.com/Depal1/pdf2keynote.git
 ..	pip install -e pdf2keynote/
 
 
@@ -57,7 +57,7 @@ and media references like ::
 	
 are extracted as playable sounds or movies
 
-See the `Demo example <https://github.com/remymuller/pdf2keynote/blob/master/test/pdf2keynote.pdf>`_ and its `source <https://github.com/remymuller/pdf2keynote/blob/master/test/pdf2keynote.tex>`_
+See the `Demo example <https://github.com/Depal1/pdf2keynote/blob/master/test/pdf2keynote.pdf>`_ and its `source <https://github.com/Depal1/pdf2keynote/blob/master/test/pdf2keynote.tex>`_
 
 
 Credits
